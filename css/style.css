@@ -1,0 +1,54 @@
+.container{
+    margin-bottom: 30px;
+}
+/* .bg{
+    background-color: oldlace;
+} */
+/* Slider Part */
+.carousel-indicators .active{
+    height: 7px;
+    width: 30px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #ff8206, #ffd019);
+}
+.carousel-indicators div{
+    height: 7px;
+    width: 10px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    margin: 8px 2px;
+}
+
+.carousel-item{
+    padding: 10px 25px;
+}
+/* Smart Phone */
+.card{
+    border: none;
+    box-shadow: 10px 10px 35px lightgray;
+    border-radius: 20px;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+/* categories */
+
+.underline{
+    height: 9px;
+    width: 95px;
+    background: linear-gradient(60deg, #FF8B05,#FFEF01);
+    border-radius: 12px;
+}
+.card{
+    border-radius: 0;
+}
+#cat-bag{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 35px;
+}
+#cat-perfume, #cat-shoes{
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 20px;
+}
+
