@@ -1,9 +1,14 @@
-.container{
-    margin-bottom: 30px;
+*{
+    font-family: 'Josefin Sans', sans-serif;
 }
-/* .bg{
-    background-color: oldlace;
-} */
+/* Navigation */
+.navbar .navbar-brand img{
+    height: 60px;
+    width: 120px;   
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 18px;
+}
 /* Slider Part */
 .carousel-indicators .active{
     height: 7px;
@@ -51,4 +56,11 @@
     border-top-left-radius: 35px;
     border-bottom-right-radius: 20px;
 }
-
+/* Footer */
+footer{
+    /* background: #5A6268; */
+    font-size: 16px;
+}
+footer .achor a{
+    text-decoration: none;
+}
